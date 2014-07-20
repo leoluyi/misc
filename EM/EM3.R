@@ -1,3 +1,5 @@
+add by jiawei2
+
 em = function(W,s) {
   Ep = s[1]*dnorm(W, s[2], sqrt(s[4]))/(s[1]*dnorm(W, s[2], sqrt(s[4])) + (1-s[1])* dnorm(W, s[3], sqrt(s[5])))
   
