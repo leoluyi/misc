@@ -2,7 +2,7 @@ add by jiawei2
 add to branch cat and line4 -> ep22
 
 em = function(W,s) {
-  Ep22 = s[1]*dnorm(W, s[2], sqrt(s[4]))/(s[1]*dnorm(W, s[2], sqrt(s[4])) + (1-s[1])* dnorm(W, s[3], sqrt(s[5])))
+  Ep2222 = s[1]*dnorm(W, s[2], sqrt(s[4]))/(s[1]*dnorm(W, s[2], sqrt(s[4])) + (1-s[1])* dnorm(W, s[3], sqrt(s[5])))
   
   
   s11_MASTER[1] = mean(Ep)
