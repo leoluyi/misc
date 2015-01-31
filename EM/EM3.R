@@ -15,7 +15,7 @@ em = function(W,s) {
 iter1 = function(W, s) {
   s1 = em(W,s)
   for (i in 1:5) {
-    if (abs(s[i]-s1[i]) > 0.0001) {
+    if (abs(s[i]-s1[i]) > 0.00001) {
       s=s1
       iter(W,s)
     }
@@ -28,7 +28,7 @@ iter2 = function(W, s){
   repeat{
     
     s1 = em(W,s)
-    if (all(s-s1 < 0.0001)){
+    if (all(s-s1 < 0.00001)){
       
       break
     }
